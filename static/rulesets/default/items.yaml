@@ -1,22 +1,22 @@
 ---
 items:
-  - id: idea
+  - id: 想法
     rarity: 1
-  - id: preliminaryResult
+  - id: 初步结果
     rarity: 2
-  - id: majorResult
+  - id: 主要结果
     rarity: 3
-  - id: figure
+  - id: 结果图表
     rarity: 3
-  - id: paper
+  - id: 论文
     rarity: 10
-  - id: submittedPaper
+  - id: 已提交的论文
     rarity: 6
-  - id: resubmittedPaper
+  - id: 已重新提交的论文
     rarity: 6
-  - id: rejectedPaper
+  - id: 被拒绝的论文
     rarity: 6
-  - id: conferencePaper
+  - id: 会议论文
     rarity: 6
-  - id: submittedConfPaper
+  - id: 已提交的会议论文
     rarity: 5

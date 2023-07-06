@@ -1,198 +1,197 @@
----
-ui.ok: Ok.
-ui.items: "Items:"
-ui.status: "Status:"
-ui.privacyNoticeTitle: Privacy Notice
-ui.privacyNoticeContent: This webpage is hosted under research.wmz.ninja, which uses Google Analytics (which uses cookies) to collect basic anonymous data for website statistics. You are free to disable cookies or enable Do Not Track.
-ui.helpTitle: Help
-ui.helpContent: Simply make your choice at the beginning of each month. All outcomes are determined by the random number generator. Do not take them seriously. **Sometimes the RNG can be brutal.**
-ui.hopeMeter: Hope {{player.hope}}/100
-ui.timeMeter: Year {{year}} Month {{month}}
+ui.ok: 确定
+ui.items: "物品:"
+ui.status: "状态:"
+ui.privacyNoticeTitle: 隐私通知
+ui.privacyNoticeContent: 此网页的原作者托管在 research.wmz.ninja 上。
+ui.helpTitle: 帮助
+ui.helpContent: 只需在每个月的开始做出选择。所有结果都由随机数生成器决定。不要把它们当真。**有时随机数生成器可能很残酷。**
+ui.hopeMeter: 希望 {{player.hope}}/100
+ui.timeMeter: 年 {{year}} 月 {{month}}
 
-item.idea: Idea
-item.idea.description: A simple idea to be developed to a preliminary result.
-item.preliminaryResult: Preliminary Result
-item.preliminaryResult.description: Some preliminary findings. Can be potentially developed into a major result.
-item.majorResult: Major Result
-item.majorResult.description: Some major findings. With three figures, you can draft a new paper.
-item.figure: Figure
-item.figure.description: A nice looking figure summarizing your hard work conducting various experiments. With three figures and a major result, you can draft a paper.
-item.submittedPaper: Submitted Paper
-item.submittedPaper.description: A submitted paper, waiting for the judgement from the reviewers.
-item.resubmittedPaper: Resubmitted Paper
-item.resubmittedPaper.description: A resubmitted paper, waiting for another round of the judgement from the reviewers.
-item.paper: Paper
-item.paper.description: A published paper!
-item.rejectedPaper: Rejected Paper
-item.rejectedPaper.description: A rejected, waiting to be rewritten and resubmitted.
-item.conferencePaper: Conference Paper
-item.conferencePaper.description: A published conference paper. Reduces the chance of losing your new ideas to other researchers.
-item.submittedConfPaper: Submitted Conference Paper
-item.submittedConfPaper.description: A submitted conference paper, waiting for the judgement from the reviewers.
+item.idea: 想法
+item.idea.description: 一个简单的想法，可以发展成初步结果。
+item.preliminaryResult: 初步结果
+item.preliminaryResult.description: 一些初步发现。有潜力发展成主要结果。
+item.majorResult: 主要结果
+item.majorResult.description: 一些重要发现。拥有三个图形，您可以起草一篇新论文。
+item.figure: 图形
+item.figure.description: 一个漂亮的图形，总结您进行各种实验的辛勤工作。有三个图形和一个主要结果，您可以起草一篇论文。
+item.submittedPaper: 已提交的论文
+item.submittedPaper.description: 一篇已提交的论文，等待评审人员的评判。
+item.resubmittedPaper: 已重新提交的论文
+item.resubmittedPaper.description: 一篇重新提交的论文，等待评审人员的另一轮评判。
+item.paper: 论文
+item.paper.description: 一篇已发表的论文！
+item.rejectedPaper: 被拒绝的论文
+item.rejectedPaper.description: 一篇被拒绝的论文，等待重写和重新提交。
+item.conferencePaper: 会议论文
+item.conferencePaper.description: 一篇已发表的会议论文。降低了您的新想法被其他研究人员抢先的机会。
+item.submittedConfPaper: 已提交的会议论文
+item.submittedConfPaper.description: 一篇已提交的会议论文，等待评审人员的评判。
 
-status.firstYear: First Year Excitement
-status.firstYear.description: "**+1 hope** every month."
-status.brokenEquipment: Broken Equipment
-status.brokenEquipment.description: Cannot conduct experiments this month.
-status.callForPapers: Call for Papers
-status.callForPapers.description: You can submit a conference paper once you have a major result.
-status.upgradedEquipment: Upgraded Equipment
-status.upgradedEquipment.description: Increases the chance of getting nice figures.
-status.cloudStorage: Cloud Storage
-status.cloudStorage.description: Automatically synchronizes local data to the cloud. Risk of losing experiment data is drastically reduced.
-status.exhaustion: Exhaustion
-status.exhaustion.description: "**-5 hope** every month. Time to slow down and take a break."
-status.lateYearAnxiety: "Late Year Anxiety"
-status.lateYearAnxiety.description: "**-1 hope** every month. You began to worry about your graduation."
-status.unhappyAdvisor: Unhappy Advisor
-status.unhappyAdvisor.description: "**-5 hope** every month. Your advisor is not very satisfied with your performance."
+status.firstYear: 初年激情
+status.firstYear.description: "**每月 +1 希望**。"
+status.brokenEquipment: 设备损坏
+status.brokenEquipment.description: 本月无法进行实验。
+status.callForPapers: 征稿通知
+status.callForPapers.description: 一旦有主要结果，您可以提交一篇会议论文。
+status.upgradedEquipment: 设备升级
+status.upgradedEquipment.description: 增加获取漂亮图形的几率。
+status.cloudStorage: 云存储
+status.cloudStorage.description: 自动将本地数据同步到云端。大大降低实验数据丢失的风险。
+status.exhaustion: 疲惫
+status.exhaustion.description: "**每月 -5 希望**。是时候放慢脚步休息一下了。"
+status.lateYearAnxiety: 年末焦虑
+status.lateYearAnxiety.description: "**每月 -1 希望**。你开始担心毕业问题了。"
+status.unhappyAdvisor: 不满意的导师
+status.unhappyAdvisor.description: "**每月 -5 希望**。你的导师对你的表现不太满意。"
 # qualify
-message.qualifyNotice: "DEPARTMENT NOTICE: All PhD students must pass the **qualifying exam in December**."
-message.prepareQualify: Prepare for the qualifying exam.
-message.qualifyLevelUp: You felt more confident in passing the qualifying exam.
-message.qualifyLevelMax: You felt **very confident** in passing the qualifying exam.
-message.qualifyPassed: You **PASSED** the qualifying exam.
-message.qualifyFailed: You **FAILED** the qualifying exam.
+message.qualifyNotice: "系通知：所有博士生必须在**12月份的资格考试**中通过。"
+message.prepareQualify: 准备资格考试。
+message.qualifyLevelUp: 你对通过资格考试的信心增加了。
+message.qualifyLevelMax: 你对通过资格考试感到**非常自信**。
+message.qualifyPassed: 你**通过了**资格考试。
+message.qualifyFailed: 你**未通过**资格考试。
 # burn out
-message.exhaustion: You began to feel exhausted and found it difficult to focus after working on your research non-stop in a long period. 
-message.exhaustionBreak: Your advisor noticed that you looked very tired recently and sent you an email on how to keep a good work-life balance. 
-message.takeBreak: Ask your advisor for a break.
-message.recoveredAfterBreak: Your advisor approved your request and you took a break from your busy research. Your mind got cleared and you felt **reinvigorated**.
-message.noBreak: I am fine.
-message.exhaustionIgnored: You felt that you should carry on your research.
-message.exhaustionBadMonth: You found it difficult to concentrate on your research. You felt that your mind is clogged and you need some distractions.
-message.exhaustionNoProgress: You forced yourself to focus. However, it did not help much. You did not make good progress this month.
+message.exhaustion: 你在长时间不间断地从事研究后开始感到精疲力竭，难以集中注意力。
+message.exhaustionBreak: 你的导师注意到你最近看起来非常疲惫，给你发送了一封关于如何保持良好的工作与生活平衡的电子邮件。
+message.takeBreak: 向你的导师请假休息。
+message.recoveredAfterBreak: 你的导师批准了你的请假请求，你从忙碌的研究中休息了一段时间。你的思维变得清晰，感到**焕发活力**。
+message.noBreak: 我没事。
+message.exhaustionIgnored: 你觉得应该继续进行研究。
+message.exhaustionBadMonth: 你发现很难集中精力进行研究。你感到思维混乱，需要一些分散注意力的事情。
+message.exhaustionNoProgress: 你强迫自己集中注意力。然而，这并没有起到太大的帮助。这个月你没有取得很好的进展。
 # late year anxiety
-message.lateYearAnxiety: Three years passed. You have witnessed many graduations. You began to worry about whether your can graduation on time.
+message.lateYearAnxiety: 三年过去了。你目睹了许多人毕业。你开始担心自己能否按时毕业。
 # funding
-message.fundingRises: "ACADEMIC NEWS: an increase in the government research funding is expected. \"Continuous investments in scientific research will pave the way to a brighter future,\" said one of the government officials."
-message.fundingFalls: "ACADEMIC NEWS: due to high deficits, the government is expected to cut its spending this fiscal year. Research funding is likely to be affected."
-message.moreFunding: Your advisor became the PI of a new research grant. Everyone in the lab was excited.
-message.lessFunding: Your advisor did not get any new funding for a while. Everyone in the lab felt a little worried.
-message.lostFunding: The funding of one of your advisor's projects was **cut**. Everyone in the lab felt worried.
+message.fundingRises: "学术新闻：预计政府的研究资金将增加。政府官员之一表示：“持续投资科学研究将为更光明的未来铺平道路。”"
+message.fundingFalls: "学术新闻：由于高额赤字，预计政府将在本财年削减支出。研究资金可能受到影响。"
+message.moreFunding: 你的导师成为了一项新研究项目的负责人。实验室的每个人都感到兴奋。
+message.lessFunding: 你的导师一段时间内没有获得任何新的资金。实验室里的每个人都有些担心。
+message.lostFunding: 你的导师的一个项目的资金被**削减**了。实验室里的每个人都感到担心。
 # unhappy advisor
-message.unhappyAdvisor: Your advisor seemed to be unhappy about your recent performance. "Research is a challenging task. I hope you could put more efforts into it."
-message.advisorHappyAgain: Your advisor seemed to be quite satisfied with your recent performance.
+message.unhappyAdvisor: 你的导师似乎对你最近的表现不太满意。"研究是一项具有挑战性的任务。我希望你能付出更多的努力。"
+message.advisorHappyAgain: 你的导师似乎对你最近的表现非常满意。
 # main events
-message.beginning: Congratulations. You have been **admitted** as a new PhD student here. Will you accept the offer?
-message.acceptOffer: Accept the offer.
-message.acceptedOffer: You accepted the offer and found your advisor. You are required to publish at least **3 journal papers** to qualify your degree.
-message.declineOffer: Decline the offer.
-message.declinedOffer: You changed your mind and **declined the offer**.
-message.newMonth: A new month begins. Let us check the to-do list.
-message.readPapers: Read some papers.
-message.gainNewIdea1: After digging into piles of papers, you suddenly gained a **new idea**.
-message.gainNewIdea2: After scratching your head for countless hours, you came up with a **new idea**.
-message.workOnIdea: Work on developing an idea.
-message.oldIdea1: After talking with your advisor about your new idea, your advisor suggested you check an old paper. It turns out that it has been done before. 
-message.oldIdea2: Your advisor thought your new idea is not interesting, and suggested you come up with a new one.
-message.oldIdea3: Your advisor thought your new idea is not novel enough, and suggested you read more papers. 
-message.oldIdea4: You came up with a bunch of ideas. However, upon further searching, you found that they have already been done before. 
-message.noIdea1: You opened too many tabs in the web browser and it suddenly **crashed**. You lost track of the papers you were reading.
-message.gainPrelimResult: Your idea is working! You obtained some a **preliminary result**.
-message.ideaNotWorking: It turned out that this idea is not working. Time to try another one.
-message.workOnPrelimResult: Work on developing a preliminary result.
-message.gainMajorResult: You developed a **major result**.
-message.noMajorResult1: You are quite certain that you will get some interesting results. However, you need more time to find the missing piece.
-message.noMajorResult2: Your advisor pointed out a problem in your derivations. You need to rethink about your approach.
-message.workOnFigure: Conduct experiments to support a major result.
-message.gainFigure: The experiments went very well. You gained a nice **figure**.
-message.noFigure1: You did not get any interesting results from the current setup. It seems that you need to conduct more experiments.
-message.noFigure2: Your program ran out of memory and crashed. You need to redo some of the experiments.
-message.noFigure3: The simulation took a much longer time than you expected. The results are not available yet.
-message.noFigure4: You encountered an technical issue while setting up the experiments. It took you a while to find a work-around and you definitely need more time to complete the experiments.
-message.lostData: The computer crashed when processing the data. It seems that you need to redo the experiments.
-message.lostDataRecovered: The computer crashed when processing the data. Luckily you **recovered** them from the cloud storage and obtained a nice **figure**. 
-message.wrongFigure: You obtained some contradicting results. Something went wrong and you need to more time to check it.
-message.workOnPaper: Work on a draft paper.
-message.draftPaperComplete: You completed your draft paper and submitted it!
-message.draftPaperIncomplete1: Your advisor was too busy to go through the draft paper with you last month.
-message.draftPaperIncomplete2: Despite your effort, you did not complete your draft paper. You need to add more details to the background section.
-message.draftPaperIncomplete3: Despite your effort, you did not complete your draft paper. You need to add more details to the result section.
-message.paperAccepted: "INBOX: We are pleased to inform you that your manuscript has been **ACCEPTED** for publication."
-message.paperRejected1: "INBOX: Based on the reviewers' comments, we regret to inform you that your manuscript has been **REJECTED** for publication. One of the reviewers though the proposed approach is not novel enough."
-message.paperRejected2: "INBOX: Based on the reviewers' comments, we regret to inform you that your manuscript has been **REJECTED** for publication. One of the reviewers pointed out a problem in the derivation of the main conclusion."
-message.paperRejected3: "INBOX: Based on the reviewers' comments, we regret to inform you that your manuscript has been **REJECTED** for publication. One of the reviewers commented that the figures are not convincing."
-message.paperRejected4: "INBOX: Based on the reviewers' comments, we regret to inform you that your manuscript has been **REJECTED** for publication. One of the reviewers pointed out that there is no comparison with state-of-art method."
-message.paperRejected5: "INBOX: Based on the reviewers' comments, we regret to inform you that your manuscript has been **REJECTED** for publication. One of the reviewers commented that the main conclusion is not intuitive and poorly explained."
-message.paperRejected6: "INBOX: Based on the reviewers' comments, we regret to inform you that your manuscript has been **REJECTED** for publication. One of the reviewers found your manuscript very difficult to read."
-message.paperRejected7: "INBOX: Based on the reviewers' comments, we regret to inform you that your manuscript has been **REJECTED** for publication. One of the reviewers pointed out that your assumptions are unrealistic in practice."
-message.paperRejected8: "INBOX: Based on the reviewers' comments, we regret to inform you that your manuscript has been **REJECTED** for publication. One of the reviewers commented that your contributions are not significant enough."
-message.paperRejected9: "INBOX: Based on the reviewers' comments, we regret to inform you that your manuscript has been **REJECTED** for publication. One of the reviewers questioned your experiment setup and requested you conduct additional experiments."
-message.revisePaper: Revise and resubmit a rejected paper.
-message.revisionComplete: Following the reviewers' comments, you finished rewriting this rejected paper and resubmitted it.
-message.resubmittedPaperAccepted: "INBOX: We are pleased to inform you that your manuscript has been **ACCEPTED** for publication."
-message.resubmittedPaperRejected1: "INBOX: We regret to inform you that your revised manuscript has been **REJECTED** for publication."
-message.slackOff: Slack off.
-message.caughtSlackOff1: Your advisor caught you slacking off and reminded you of your tasks via various emails.
-message.caughtSlackOff2: Your advisor made a phone call to the lab and found out that your were not in the lab. You received an email reminding you of your research progress.
-message.caughtSlackOff3: Your advisor sent you several emails but did not get any reply. Your advisor then figured out that you are not in the lab and sent you another email reminding of your pending tasks.
-message.slackOffSuccess: You relaxed for a while and regained some hope.
-message.lostAllHope: You lost all hope and **quitted your PhD**.
-message.overdue: You **failed** to obtain your PhD in time.
-message.workOnThesis: Work on your thesis.
-message.graduated: Congratulations! You finished your thesis and passed your PhD defense. You finally **earned your PhD degree**. You should be proud of yourself!
+message.beginning: 恭喜！你被录取为新的博士生。你是否接受这个offer？
+message.acceptOffer: 接受offer。
+message.acceptedOffer: 你接受了这个offer，并找到了你的导师。你需要至少发表**3篇期刊论文**才能获得学位认证。
+message.declineOffer: 拒绝offer。
+message.declinedOffer: 你改变了主意，并**拒绝了offer**。
+message.newMonth: 新的一个月开始了。让我们来看看待办事项。
+message.readPapers: 阅读一些论文。
+message.gainNewIdea1: 在阅读大量论文之后，你突然得到了一个**新的想法**。
+message.gainNewIdea2: 经过数小时的思考，你想出了一个**新的想法**。
+message.workOnIdea: 开始开发一个想法。
+message.oldIdea1: 和导师讨论了你的新想法后，导师建议你检查一篇旧论文。结果发现已经有人做过了。
+message.oldIdea2: 你的导师认为你的新想法不够有趣，建议你想出一个新的想法。
+message.oldIdea3: 你的导师认为你的新想法不够新颖，建议你阅读更多论文。
+message.oldIdea4: 你想出了一堆想法，但进一步搜索后发现它们已经有人做过了。
+message.noIdea1: 你在网络浏览器中打开了太多的标签，突然**崩溃**了。你迷失了正在阅读的论文。
+message.gainPrelimResult: 你的想法起作用了！你获得了一些**初步结果**。
+message.ideaNotWorking: 结果证明这个想法行不通。是时候尝试另一个了。
+message.workOnPrelimResult: 开展初步结果的研究。
+message.gainMajorResult: 你获得了一个**重要结果**。
+message.noMajorResult1: 你非常确定会得到一些有趣的结果。然而，你需要更多时间找到缺失的部分。
+message.noMajorResult2: 你的导师指出你推导中的一个问题。你需要重新考虑你的方法。
+message.workOnFigure: 进行实验以支持一个重要结果。
+message.gainFigure: 实验进展顺利。你获得了一个漂亮的**图形**。
+message.noFigure1: 你没有从当前的设置中获得任何有趣的结果。似乎你需要进行更多的实验。
+message.noFigure2: 你的程序内存耗尽并崩溃了。你需要重新做一些实验。
+message.noFigure3: 模拟所需的时间比你预期的要长得多。结果尚不可用。
+message.noFigure4: 在设置实验时遇到了技术问题。你花了一些时间找到了一个解决方法，但明显需要更多时间来完成实验。
+message.lostData: 在处理数据时，计算机崩溃了。看来你需要重新进行实验。
+message.lostDataRecovered: 在处理数据时，计算机崩溃了。幸运的是，你从云存储中**恢复了数据**，获得了一个漂亮的**图形**。
+message.wrongFigure: 你得到了一些相互矛盾的结果。出了些问题，你需要更多时间来检查。
+message.workOnPaper: 着手撰写一篇论文草稿。
+message.draftPaperComplete: 你完成了论文草稿并提交了它！
+message.draftPaperIncomplete1: 上个月你的导师太忙了，无法和你一起查看论文草稿。
+message.draftPaperIncomplete2: 尽管你努力了，但你没有完成论文草稿。你需要在背景部分添加更多细节。
+message.draftPaperIncomplete3: 尽管你努力了，但你没有完成论文草稿。你需要在结果部分添加更多细节。
+message.paperAccepted: "收件箱：我们很高兴地通知您，您的稿件已被**接受**发表。"
+message.paperRejected1: "收件箱：根据评审人员的意见，我们遗憾地通知您，您的稿件因为缺乏新颖性而被**拒绝**发表。"
+message.paperRejected2: "收件箱：根据评审人员的意见，我们遗憾地通知您，您的稿件因为主要结论的推导中存在问题而被**拒绝**发表。"
+message.paperRejected3: "收件箱：根据评审人员的意见，我们遗憾地通知您，您的稿件因为图形不具有说服力而被**拒绝**发表。"
+message.paperRejected4: "收件箱：根据评审人员的意见，我们遗憾地通知您，您的稿件因为没有与最新方法进行比较而被**拒绝**发表。"
+message.paperRejected5: "收件箱：根据评审人员的意见，我们遗憾地通知您，您的稿件因为主要结论不直观且解释不清楚而被**拒绝**发表。"
+message.paperRejected6: "收件箱：根据评审人员的意见，我们遗憾地通知您，您的稿件非常难以阅读而被**拒绝**发表。"
+message.paperRejected7: "收件箱：根据评审人员的意见，我们遗憾地通知您，您的稿件在实验假设上存在不切实际的假设而被**拒绝**发表。"
+message.paperRejected8: "收件箱：根据评审人员的意见，我们遗憾地通知您，您的稿件贡献不够显著而被**拒绝**发表。"
+message.paperRejected9: "收件箱：根据评审人员的意见，我们遗憾地通知您，您的稿件对实验设置提出了质疑，并要求您进行额外实验，因此被**拒绝**发表。"
+message.revisePaper: 修改并重新提交被拒绝的论文。
+message.revisionComplete: 根据评审人员的意见，你完成了这篇被拒绝的论文的修改并重新提交了它。
+message.resubmittedPaperAccepted: "收件箱：我们很高兴地通知您，您的修改后的稿件已被**接受**发表。"
+message.resubmittedPaperRejected1: "收件箱：我们遗憾地通知您，您的修改后的稿件因某些原因被**拒绝**发表。"
+message.slackOff: 偷懒。
+message.caughtSlackOff1: 你的导师抓到你偷懒了，并通过各种电子邮件提醒你完成任务。
+message.caughtSlackOff2: 你的导师给实验室打了个电话，发现你不在实验室。你收到一封电子邮件提醒你的研究进展。
+message.caughtSlackOff3: 你的导师给你发了几封电子邮件，但没有收到任何回复。导师随后发现你不在实验室，并发送了另一封邮件提醒你待办任务。
+message.slackOffSuccess: 你放松了一段时间，恢复了一些希望。
+message.lostAllHope: 你失去了所有的希望，**放弃了博士学位**。
+message.overdue: 你没有能够按时获得你的博士学位。
+message.workOnThesis: 开始写你的论文。
+message.graduated: 恭喜！你完成了论文并通过了博士答辩。你终于**获得了博士学位**。你应该为自己感到骄傲！
 # progress loss related event
-message.ideaDoneByOthers: You found one of your ideas appears in a recently published paper. You can no longer work on it.
-message.prelimDoneByOthers: You found one of your preliminary results appears in a recently published paper. You can no longer work on it.
-message.goodIdea: Your advisor thinks your new idea sounds interesting. You feel encouraged.
-message.figureInvalid: Upon checking your recent experiment results, you noticed that you used wrong parameters and one of your figures becomes invalid. You must redo this experiment.
+message.ideaDoneByOthers: 你发现你的一个想法出现在最近发表的一篇论文中。你不能再继续研究它了。
+message.prelimDoneByOthers: 你发现你的一个初步结果出现在最近发表的一篇论文中。你不能再继续研究它了。
+message.goodIdea: 你的导师认为你的新想法听起来很有趣。你感到受到鼓舞。
+message.figureInvalid: 在检查最近的实验结果时，你注意到你使用了错误的参数，其中一个图形变得无效。你必须重新进行这个实验。
 # equipment event
-message.equipmentBroken: Lab equipment broken by new students.
-message.doNothing: Do nothing.
-message.cannotUseEquipment: You cannot use lab equipment to verify your results next month. That sucks.
-message.fixEquipment: Try to fix it.
-message.equipmentFixed: It is working. Praise the magic of engineering.
-message.equipmentNotFixed: You tried to fix it. However, it is still not working.
-message.equipmentFixed2: Tech support arrived and fixed the lab equipment.
-message.newEquipment: Your advisor **upgraded the old lab equipment**. Everyone was excited.
-message.cloudStorage: "UNIVERSITY NEWS: free cloud storage now available to all students and faculties. Your data are now safe on the cloud."
+message.equipmentBroken: 实验室设备被新生损坏了。
+message.doNothing: 什么都不做。
+message.cannotUseEquipment: 你下个月无法使用实验室设备来验证你的结果。真糟糕。
+message.fixEquipment: 尝试修理它。
+message.equipmentFixed: 它恢复正常了。赞美工程的魔力。
+message.equipmentNotFixed: 你试图修理它，但它仍然无法正常工作。
+message.equipmentFixed2: 技术支持到达并修理了实验室设备。
+message.newEquipment: 你的导师**升级了旧的实验室设备**。每个人都很兴奋。
+message.cloudStorage: "大学新闻：所有学生和教职员工现在可以免费使用云存储。你的数据现在在云端是安全的。"
 # conference event
-message.callForPapers: The great International Conference on PhD Simulation (ICPS) is **calling for papers**. Submission is open for the following **6 months**. If you have any preliminary result, you can submit.
-message.workOnConf: Work on a conference paper.
-message.finishedConfPaper: You finished the conference paper and submitted it!
-message.confPaperRejected: Your submission to ICPS{{year}} was **REJECTED**. The reviewers were not convinced of the significance your results. Nevertheless, you can continue to work on these results.
-message.confPaperAccepted1: "INBOX: Congratulations on the **ACCEPTANCE** of this nice work as an poster paper in ICPS{{year}}."
-message.confPaperAccepted2: "INBOX: Congratulations on the **ACCEPTANCE** of this nice work as an oral paper in ICPS{{year}}."
-message.attendConf: You arrived at the conference center for ICPS{{year}} and finished your presentation. Let us check the schedule for the next day.
-message.skipConfSession: Take a tour around the city.
-message.confNiceTour1: The city is beautiful and you felt reinvigorated after walking around the streets.
-message.confNiceTour2: You found a nice restaurant and enjoyed the food there.
-message.skipConfSessionFail1: You ran across your advisor while wandering around. That was embarrassing.
-message.skipConfSessionFail2: Your advisor wanted to meet with you in the conference center but did not find you.
-message.attendConfSession: Attend some interesting sessions.
-message.confNewIdea: You attended several interesting talks and came up with **a new idea** while discussing with other researchers during the conference.
-message.confNoNewIdea: The talks were interesting. The food was great, too.
+message.callForPapers: 伟大的国际博士生模拟大会（ICPS）正在**征集论文**。提交将在接下来的**6个月**内开放。如果你有任何初步结果，可以提交。
+message.workOnConf: 着手撰写一篇会议论文。
+message.finishedConfPaper: 你完成了会议论文并提交了它！
+message.confPaperRejected: 你提交的ICPS{{year}}的论文被**拒绝**了。评审人员对你的结果的重要性不太满意。尽管如此，你仍然可以继续研究这些结果。
+message.confPaperAccepted1: "收件箱：祝贺你的这篇出色的工作在ICPS{{year}}作为海报论文**被接受**。"
+message.confPaperAccepted2: "收件箱：祝贺你的这篇出色的工作在ICPS{{year}}作为口头报告**被接受**。"
+message.attendConf: 你抵达ICPS{{year}}的会议中心，并完成了你的报告。让我们看看明天的议程安排。
+message.skipConfSession:先在城市周围游览一下。
+message.confNiceTour1: 这个城市很美丽，你在街上走了一圈后感到焕发了活力。
+message.confNiceTour2: 你找到了一家不错的餐馆，享受了那里的美食。
+message.skipConfSessionFail1: 你在四处闲逛时遇到了导师。那真尴尬。
+message.skipConfSessionFail2: 你的导师想在会议中心见你，但没有找到你。
+message.attendConfSession: 参加一些有趣的会议。
+message.confNewIdea: 你参加了几个有趣的讲座，在与其他研究人员讨论时想出了**一个新的想法**。
+message.confNoNewIdea: 这些讲座很有趣。食物也很棒。
 # advisor comments
-message.qualifyReminder: Your advisor thought that your are not well prepared for your qualifying exam and urged you to pay more attention to it.
-message.tooManyIdeas: Your advisor sent you an email saying that you should focus more on turing ideas into solid results.
-message.notEnoughPapers: Your advisor sent you an email reminding your progress, expressing the anxiety to see more papers.
-message.rejectedPaperAdvisor: Your advisor sent you an email regarding the rejection of your recent paper. "Do not get discouraged by the reviewers' comments. Cool off, revise, and resubmit."
+message.qualifyReminder: 你的导师认为你对资格考试准备不足，并敦促你更加重视。
+message.tooManyIdeas: 你的导师发邮件告诉你应该更加专注于将想法转化为实际结果。
+message.notEnoughPapers: 你的导师发邮件提醒你进展情况，表达对更多论文的担忧。
+message.rejectedPaperAdvisor: 你的导师发送了一封邮件，谈到了你最近的一篇论文被拒绝的事情。"不要因为评审人员的评论而气馁。冷静下来，修订并重新提交。"
 # misc events
-message.paperCited: Your recent paper got more citations. You feel recognized.
-message.seminar1: You attended a seminar related to your research this month. The speaker's slides were very inspiring and you gained **a new idea**.
-message.seminar2: A distinguished lecturer gave a inspiring talk in this week's seminar. You suddenly came up with **a new idea**.
-message.showerIdea: You found the missing piece during a shower. You develop one of your preliminary results into a **major result**.
-message.randomHope1: The city museum is hosting a special exhibition this month. You paid a visit and it was a great experience. You feel relieved.
-message.randomHope2: There was an open concert near the campus. You spent some time enjoying the music and felt relieved.
-message.randomHope3: You had a party with your labmates. The food was great and you felt relieved.
-message.randomHope4: A new restaurant opened near your apartment. You paid a visit and the food was great. You felt much better.
-message.randomHope5: An item in your shopping cart was on sale. You instantly bought it and felt much better.
+message.paperCited: 你最近的一篇论文被引用次数更多了。你感到受到了认可。
+message.seminar1: 你参加了与你的研究相关的一个研讨会。演讲者的幻灯片非常激励人心，你获得了**一个新的想法**。
+message.seminar2: 一位杰出的讲者在本周的研讨会上发表了一场激励人心的演讲。你突然想出了**一个新的想法**。
+message.showerIdea: 你在洗澡时找到了缺失的一块。你将你的一个初步结果发展成了**一个重要的结果**。
+message.randomHope1: 城市博物馆这个月举办了一个特别展览。你参观了一下，感觉很不错。你感到宽慰。
+message.randomHope2: 校园附近举办了一个开放音乐会。你花了一些时间享受音乐，感到宽慰。
+message.randomHope3: 你和实验室的同学举办了一个聚会。食物很好，你感到宽慰。
+message.randomHope4: 你的购物车中的一个物品打折了。你立即购买了它，感到好多了。
 # confirms
-message.oops: Oops.
-message.great: Great.
-message.cool: Cool.
-message.ok: Okay.
-message.gotit: Got it.
-message.workingOnIt: Working on it.
-message.excited: Excited.
-message.finally: Finally.
-message.hope: Hope so.
-message.encouraging: That is encouraging.
-message.shame: That's a shame.
-message.sucks: That sucks.
-message.party: Let us have a party to celebrate it.
-message.soundsInteresting: Sounds interesting.
-message.unfortunate: That is unfortunate.
-message.restart: Let us travel back in time and start again.
-message.hopeAccepted: Hope it will be accepted this time.
+message.oops: 哎呀。
+message.great: 太好了。
+message.cool: 很酷。
+message.ok: 好的。
+message.gotit: 明白了。
+message.workingOnIt: 正在努力。
+message.excited: 兴奋。
+message.finally: 终于。
+message.hope: 希望如此。
+message.encouraging: 鼓舞人心。
+message.shame: 真可惜。
+message.sucks: 真糟糕。
+message.party: 让我们举办一个派对来庆祝。
+message.soundsInteresting: 听起来有趣。
+message.unfortunate: 这真不幸。
+message.restart: 让我们回到过去重新开始。
+message.hopeAccepted: 希望这次会被接受。
+
