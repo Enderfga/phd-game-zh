@@ -10,6 +10,12 @@ Random events are defined in [YAML files](static/rulesets/default). Therefore, t
 
 Currently the GUI code is purely vanilla, and kind of messy. I may clean it up if I have time.
 
+## Install
+npm install
+
+## Start
+node app.js
+
 ## License
 
 MIT
