@@ -10,6 +10,8 @@ Random events are defined in [YAML files](static/rulesets/default). Therefore, t
 
 Currently the GUI code is purely vanilla, and kind of messy. I may clean it up if I have time.
 
+## Play
+We have a Chinese version now. You can [play it here](https://enderfga.cn/phd)
 ## Install
 ```shell
 npm install
