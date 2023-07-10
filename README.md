@@ -11,10 +11,18 @@ Random events are defined in [YAML files](static/rulesets/default). Therefore, t
 Currently the GUI code is purely vanilla, and kind of messy. I may clean it up if I have time.
 
 ## Install
+```shell
 npm install
+```
+
+
 
 ## Start
+```shell
 node app.js
+```
+
+
 
 ## License
 
